@@ -1,0 +1,5 @@
+-r requirements.txt
+pytest>=8.0
+scikit-learn>=1.4
+# nur für Aggregationsskript und Tests, nicht für die App (GPL-3.0 oder neuer):
+chess>=1.10

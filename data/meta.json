@@ -1,0 +1,83 @@
+{
+  "quelle": "https://database.lichess.org/ (Lichess-Datenbank, CC0)",
+  "datei": "lichess_db_standard_rated_2026-10.pgn.zst",
+  "gesamtgroesse_bytes": 30982323881,
+  "abgerufene_bytes": 12884901888,
+  "stuecke": [
+    {
+      "datei": "lichess_2026-10_stueck0.pgn.zst.teil",
+      "bytes": 2147483648,
+      "erste_partie_utc": "2026.10.01 00:00:00",
+      "letzte_partie_utc": "2026.10.03 06:26:55"
+    },
+    {
+      "datei": "lichess_2026-10_stueck1.pgn.zst.teil",
+      "bytes": 2147483648,
+      "erste_partie_utc": "2026.10.06 01:02:44",
+      "letzte_partie_utc": "2026.10.08 07:15:04"
+    },
+    {
+      "datei": "lichess_2026-10_stueck2.pgn.zst.teil",
+      "bytes": 2147483648,
+      "erste_partie_utc": "2026.10.11 02:32:52",
+      "letzte_partie_utc": "2026.10.13 07:11:21"
+    },
+    {
+      "datei": "lichess_2026-10_stueck3.pgn.zst.teil",
+      "bytes": 2147483648,
+      "erste_partie_utc": "2026.10.16 01:24:53",
+      "letzte_partie_utc": "2026.10.18 07:46:55"
+    },
+    {
+      "datei": "lichess_2026-10_stueck4.pgn.zst.teil",
+      "bytes": 2147483648,
+      "erste_partie_utc": "2026.10.21 01:33:02",
+      "letzte_partie_utc": "2026.10.23 07:59:28"
+    },
+    {
+      "datei": "lichess_2026-10_stueck5.pgn.zst.teil",
+      "bytes": 2147483648,
+      "erste_partie_utc": "2026.10.26 02:14:58",
+      "letzte_partie_utc": "2026.10.28 07:27:01"
+    }
+  ],
+  "filter": {
+    "min_elo": 2000,
+    "ereignis": "Event enthält Rapid oder Classical (ohne Correspondence), Einzel- und Turnierpartien",
+    "termination": [
+      "Normal",
+      "Time forfeit"
+    ],
+    "halbzuege": [
+      20,
+      30,
+      40,
+      50,
+      60,
+      70,
+      80
+    ],
+    "ruhig": "Anzugsseite nicht im Schach, letzter Zug kein Schlagzug"
+  },
+  "zaehlungen": {
+    "Partien im Strom": 39575722,
+    "Stellungen Halbzug 20": 240517,
+    "Stellungen Halbzug 30": 212622,
+    "Stellungen Halbzug 40": 190612,
+    "Stellungen Halbzug 50": 165786,
+    "Stellungen Halbzug 60": 139621,
+    "Stellungen Halbzug 70": 114203,
+    "Stellungen Halbzug 80": 91926,
+    "abgelehnt: Ende nicht normal": 527,
+    "abgelehnt: Wertung unter Grenze": 6732648,
+    "abgelehnt: andere Bedenkzeit": 32521374,
+    "abgelehnt: kein gewertetes Ergebnis": 13,
+    "behalten": 321160,
+    "behalten 2000–2199": 259614,
+    "behalten 2200–2399": 46493,
+    "behalten ab 2400": 15053,
+    "davon Turnier-Event (Arena oder Swiss)": 12636
+  },
+  "zeilen_csv": 17725,
+  "python_chess": "1.11.2"
+}
