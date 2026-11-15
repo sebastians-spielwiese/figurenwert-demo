@@ -3,6 +3,8 @@
 Interaktive Streamlit-Demo der [Sebastians Spielwiese](https://sebastians-spielwiese.net/) (Schach-Linie, Demo A). Sie schätzt aus echten
 Online-Partien, wie viele Bauern eine Figur wert ist, und legt das Ergebnis neben die Faustregel **Bauer 1, Springer 3, Läufer 3, Turm 5, Dame 9**.
 
+Live: [spielwiese-figurenwert.streamlit.app](https://spielwiese-figurenwert.streamlit.app/)
+
 Lauffähig mit: `streamlit run app.py`
 
 ## Was die Demo zeigt
