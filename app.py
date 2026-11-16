@@ -14,6 +14,9 @@ import fw_auswertung as AU
 import fw_constants as C
 import fw_modell as M
 import fw_visualisierung as V
+import modul_frisch
+
+modul_frisch.aktualisieren(__file__)      # geänderte Hilfsmodule nach einem Update neu laden (Cloud behält sie sonst bis zum Neustart)
 
 st.set_page_config(page_title="Figurenwert – Sebastians Spielwiese", layout="wide")
 

@@ -73,9 +73,9 @@ Was daraus **nicht** folgt:
 
 ## Tests
 
-`python -m pytest tests -q` (Test-venv, `requirements-dev.txt`): **65 Tests**. Orakel: Koeffizienten gegen `scikit-learn` (Remis als halber Sieg plus halbe Niederlage), Sandwich-Schätzer gegen eine Schleife über Einzelpartien,
+`python -m pytest tests -q` (Test-venv, `requirements-dev.txt`): **72 Tests**. Orakel: Koeffizienten gegen `scikit-learn` (Remis als halber Sieg plus halbe Niederlage), Sandwich-Schätzer gegen eine Schleife über Einzelpartien,
 Material gegen eine unabhängige Buchstabenzählung der FEN, Handrechnung für eine Zwei-Zellen-Anpassung (Achsenabschnitt und Bauernkoeffizient exakt aus den Logits),
-Strom-Leser mit mehreren Zstandard-Frames, abgeschnittenem Anfang und Ende, AppTest für jedes Preset. Ein unabhängiger Prüfer hat die Fassung mit einer Stichprobe vom Monatsanfang (1 GiB) gegengerechnet (Aggregation, Köpfe-Zählung, Koeffizienten, Sandwich, Delta-Methode, Bootstrap); seine Befunde zu den Texten sind eingearbeitet, die neue Fassung mit sechs Stücken ist nicht noch einmal komplett geprüft.
+Strom-Leser mit mehreren Zstandard-Frames, abgeschnittenem Anfang und Ende, AppTest für jedes Preset. Ein unabhängiger Prüfer hat die Fassung mit einer Stichprobe vom Monatsanfang (1 GiB) gegengerechnet (Aggregation, Köpfe-Zählung, Koeffizienten, Sandwich, Delta-Methode, Bootstrap); seine Befunde zu den Texten sind eingearbeitet, die neue Fassung mit sechs Stücken ist nicht noch einmal komplett geprüft. `modul_frisch.py` lädt geänderte Hilfsmodule nach einem Update neu (Streamlit Community Cloud behält sie sonst bis zum Neustart der App); getestet mit Abhängigkeiten und `from`-Imports.
 
 ## Lizenzen
 
